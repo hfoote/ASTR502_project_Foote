@@ -6,7 +6,7 @@ The goal of this project was to replicate the DeepShadows CNN and results of Tan
 Code in this repository is based heavily on the DeepShadows repository here: https://github.com/dtanoglidis/DeepShadows
 
 ## Data Availability
-Due to the size of the full datasets, they are not uploaded to this repository, though a small subset of the data sufficient to run the codes is included in the Data directory. The full datasets created by this notebook with copies of the coordinate files from https://github.com/dtanoglidis/DeepShadows may be found in the Data folder here: https://drive.google.com/drive/folders/1Ut5VBYog58yztF_jeYothogKvMu3aW-k?usp=sharing
+Due to the size of the full datasets, they are not uploaded to this repository, though a small subset of the data sufficient to run the codes is included in the Data directory. The full datasets along with copies of the coordinate files from https://github.com/dtanoglidis/DeepShadows may be found in the Data folder here: https://drive.google.com/drive/folders/1Ut5VBYog58yztF_jeYothogKvMu3aW-k?usp=sharing
 
 To train and test the network with the full datasets, clone the repository, then replace the included Data directory with the version found at the above link. You may also run fetch_data.ipynb to download the full sets yourself.
 
