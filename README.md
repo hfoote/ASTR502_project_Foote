@@ -13,6 +13,6 @@ To train and test the network with the full datasets, clone the repository, then
 ## Notebooks 
 *fetch_data.ipynb* Reads the coordinates of LSBGs and artifacts from the files provided in the DeepShadows repository, then downloads and saves the image cutouts in training, validation, and test sets. 
 
-*network_tf.ipynb* Reads the datasets, then defines, trains, and tests my implementation of the DeepShadows CNN. Additionally, this notebook performs transfer learning on a dataset from HSC. This notebook saves two versions of the trained network, both of which may be found in the Trained_networks folder at the above link. DeepShadows_tf is trained on the DES dataset alone, and DeepShadows_tf_HSC has been fine-tuned on a small dataset from HSC.
+*network_tf.ipynb* Reads the datasets, then defines, trains, and tests my implementation of the DeepShadows CNN. Additionally, this notebook performs transfer learning on a dataset from HSC. This notebook saves two versions of the trained network, both of which may be found in the Trained_networks folder at the above Google Drive link. DeepShadows_tf is trained on the DES dataset alone, and DeepShadows_tf_HSC has been fine-tuned on a small dataset from HSC.
 
 Some of the testing cells in this notebook will load the saved network(s) before testing it. If you only want to test the netowrk, make sure you download the saved networks from the google drive folder. If you run the whole notebook in order, you don't need to do this as it will save the networks as they're trained. 
